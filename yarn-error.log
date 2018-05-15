@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add typescript @blueprint/core
+
+PATH: 
+  /home/rick/.asdf/bin:/home/rick/.asdf/shims:/home/rick/.rvm/gems/ruby-2.5.1/bin:/home/rick/.rvm/gems/ruby-2.5.1@global/bin:/home/rick/.rvm/rubies/ruby-2.5.1/bin:/home/rick/.rvm/bin:/bin:/home/rick/.cargo/bin:/home/rick/bin:/home/rick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.11.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@blueprint%2fcore: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:65327:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:133155:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:134138:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:134058:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "popover_error",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Rick Carlino",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

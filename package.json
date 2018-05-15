@@ -1,0 +1,15 @@
+{
+  "name": "popover_error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rick Carlino",
+  "license": "MIT",
+  "dependencies": {
+    "@blueprintjs/core": "^2.3.1",
+    "@types/react": "^16.3.14",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-transition-group": "^2.3.1",
+    "typescript": "^2.8.3"
+  }
+}
